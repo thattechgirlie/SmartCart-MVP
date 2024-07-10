@@ -1,0 +1,33 @@
+IoT-Based Supermarket Billing System
+Introduction
+The IoT-Based Supermarket Billing System revolutionizes shopping experiences by integrating automated scanners into shopping trolleys, enabling shoppers to scan items in real-time. This system aims to reduce checkout times and improve overall efficiency in supermarkets.
+
+Deployed Site
+Final Project Blog Article
+Author's LinkedIn
+Inspiration and Technical Challenge
+Inspired by personal experiences of frustrating supermarket queues, I set out to develop a solution that enhances checkout efficiency using IoT and machine learning technologies. The main technical challenge was implementing real-time item scanning and processing reliably. I chose to integrate RFID tags for high-frequency accuracy and barcode scanners for non-RFID items. This required meticulous handling of simultaneous scans, error-checking mechanisms, and seamless integration with a Python backend powered by Flask.
+
+Technical Details
+Architecture
+
+The system architecture consists of RFID tag readers and barcode scanners integrated into shopping trolleys. Data from these devices is processed by a Flask backend hosted on a Raspberry Pi, ensuring real-time updates and calculations of the total bill.
+
+Algorithms and Technologies
+I utilized C++ for low-level interfacing with RFID readers and barcode scanners, leveraging Python for backend processing. TensorFlow was employed for machine learning tasks to optimize scan accuracy over time, enhancing user experience.
+
+Challenges and Solutions
+Initially, managing real-time data streams posed latency challenges. I optimized data handling routines and implemented queue-based processing to mitigate delays. Error-checking mechanisms were crucial to ensure accurate scan data processing, enhancing reliability.
+
+Future Iterations
+For future iterations, I envision integrating computer vision for automated item recognition, enhancing the system's capability to handle a wider range of products. Implementing a cloud-based architecture could also improve scalability and real-time data processing capabilities.
+Contributing
+Contributions are welcome! Please refer to the Contributing guidelines in the repository.
+
+Related Projects
+Explore related projects:
+
+Self-Checkout Systems
+Mobile Shopping Apps with Scan and Go Features
+
+Licensing
